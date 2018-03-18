@@ -1,0 +1,30 @@
+{
+    "name": "cmd_dictionary",
+    "version": "1.0.0",
+    "description": "A command-line dictionary tool.",
+    "main": "server.js",
+    "scripts": {
+        "test": "server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git"
+    },
+    "keywords": [
+        "Command",
+        "Line",
+        "Dictionary"
+    ],
+    "entry point": "server.js",
+    "author": "Ramakanth Reddy",
+    "license": "ISC",
+    "bin": {
+        "dict": "./server.js"
+    },
+    "dependencies": {
+        "co": "^4.6.0",
+        "co-prompt": "^1.0.0",
+        "commander": "^2.15.0",
+        "request": "^2.85.0"
+    }
+}
